@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+<title>Wereldhuis</title>
+<style>
+* {
+  box-sizing: border-box;
+  width:auto;
+  height:auto;
+  margin:0px;
+  padding:0px;
+  
+}
+
+body {
+  margin:0px;
+  padding:0px;
+  align-items:center;
+  background-color:#f0f0f5;
+  border:0px solid #f2f2f2;
+  line-height:1.5;
+  box-sizing:border-box;
+}
+#huis{
+  color: #3693ff;
+}
+ a{
+  text-decoration:none; 
+   font-size:30px
+}
+/* ----navbar------- */
+#navbar {
+   display:flex;
+   width:100%;
+    background: #333;
+    color: #fff;
+    padding: 20px 50px;
+    postion:absolute;
+    top:0px;
+   flex-wrap: wrap;
+   border-bottom: 8px solid #66ff99;
+    border-radius:15PX;
+    
+}
+#navbar ul{
+    display:flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar li a{
+  text-decoration:none;
+  color:#fff;
+  padding:20px;
+  font-size:18px;
+  margin:0 36%;
+  border-radius: 20px;
+   
+
+}
+#navbar li a:hover{
+    background-color: #3342bf;
+}
+/*------show-content----*/
+
+.showcase-content{
+  display:flex;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  background-image:url(http://festivaloverzichtamsterdam.nl/wp-content/uploads/2015/05/Festival-Overzicht-Amsterdam.jpg);no-repeat coment;
+ -webkit-background-size:cover;
+  top:118px;
+   left:0;
+   bottom: 0;
+   right:0;
+  color:#000000;
+   flex-wrap: wrap;
+   border-radius: 20px;
+   border-bottom:5px solid  #3693ff;
+}
+.showcase-content h1{
+    font-size: 35px;
+    margin-bottom: 1px;
+      color:#0d0d0d;
+    font-size: 35px;
+}
+
+.showcase-content .btn{
+    font-size: 20px;
+    padding: 10px 40px;
+    transition: color 0.3s,background 0.3s;
+  
+        }
+.showcase-content .btn:hover {
+    background: #3693ff;
+    color: #fff;
+}
+.btn{
+    color: #3693ff;
+    text-decoration: inline-block;
+    padding: 10px 20px;
+    border-bottom: 6px solid #3963ff;
+    border-radius: 25px;
+    font-weight: bold;   
+}
+
+/*-----about-area----*/
+
+#about{
+  margin-top:40%;
+   padding: 30px 0;
+  border-bottom: 8px solid #3963ff;
+   border-radius: 30px;
+}
+#about h2{
+    text-align: center;
+    font-size: 50px;
+	margin-button:20px;
+}
+#about h3{
+    font-size: 50px;
+    margin-bottom:10px;
+    
+}
+#about p.lead {
+    margin-bottom: 1opx;
+}
+#about .about-content{
+    background: url(https://wallpapertag.com/wallpaper/full/c/c/a/294180-old-paper-background-1920x1080-phone.jpg);
+  display:flex;
+}
+#about .about-text{
+    text-align: center;
+	display:block;
+	margin-right:auto;
+	width:100%;
+	margin-top:auto;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+     
+}
+#about .about-content:hover{
+    background:#364573;
+    color:#333;
+}
+/*-----contact-area------*/
+
+#Contact{
+    margin: 0;
+    padding: 10px ;
+    font-family: poppins;
+    background-image: url(http://2.bp.blogspot.com/-96dUp0NAYkY/Ujg2b7TpvWI/AAAAAAAABTA/3W0QZbMlM8c/s1600/photoshop-new-image-brick-wall-background-free.jpeg);no-repeat coment;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.5);
+    width:100%;
+    height:460px;
+    position: absolute;
+    top:225%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    flex-wrap: wrap;
+    border-radius: 40px;
+}
+#Contact:before{
+    content: '';
+    width: 510px;
+    height: 450px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    border-radius: 30px;
+    
+}
+#Contact:hover{
+    background-color: aliceblue;
+    color:#1aff1a;
+}
+.header-area h2{
+    position: absolute;
+    top: 34%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+    width: 35%;
+    border: 2px inset #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 53px;
+    border-radius:30px;
+    box-shadow:1px 1px 5px 2px rgba(255,106,0,1); 
+    
+}
+.header-area p{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+   width:27%;
+  font-size:30px;
+    transform: translate(-50%,-50%);
+     color: rgb(245, 244, 244);  
+}
+.header-area p:hover{
+  background-color:#0c0d1b;
+  color:#f9c017;
+  border-radius:20px;
+}
+.header-area h2:hover{
+    background-color: azure;
+    color: cyan;
+}
+.social-area{
+    position:absolute;
+    top: 86%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+}
+
+.social-area:hover{
+  background-color:#ffffff;
+  border-radius:37px;
+ /* width:30%;
+  height:65px;*/
+}
+.social-area i{
+    width:20px;
+    height: 30px;
+    padding: 25px;
+    margin: 0 0px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+    color:#1a8cff;
+    font-size: 35px;
+    width:20px;
+}
+.form-area{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    overflow: hidden;   
+}
+.form-area input{
+    outline: none;
+    padding: 0 0 0 35px;
+    border: 2px  inset rgba(0,0,0,0);
+    border-bottom-color: #262626;
+    background: transparent;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.form-area i{
+    width: 20px;
+    position: absolute;
+    margin-top: 15px;
+}
+.form-area input[type=chekbox]{
+    margin: 20px 0 0 2px;
+    padding: 0;
+    border: 2px solid #262626;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    outline: none;
+}
+input:checked[type=chekbox]{
+    background-color: #262626;
+    border: none;
+}
+.terms{
+    float: right;
+    margin-right: 75px;
+    font-size: 20px;
+}
+.form-area input[type=submit]{
+    width: 100%;
+    border: none;
+    background-color: #262626;
+    color: #fff;
+    cursor: pointer;
+    padding: 0;
+}
+.social-area .asmie {
+ postion:absolute;
+  width:100%;
+    margin: 10px;
+    align-items:center;
+    padding: 0px;
+   display:inline;
+}
+.asmie p{
+  postion:absolute;
+  align-items:center;
+  margin:10px;
+  padding:10px;
+  font-size:28px;
+  font-weight:bold;
+}
+
+/* For desktop: 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+ @media only screen and (max-width:760px) {
+  /* For mobile phones: 
+  [class*="showcase-content"] {
+    width: 100%;
+  } */
+   /* @media only screen and (max-width:760px) {
+   For mobile phones: 
+  [Id*="navbar"] {
+    width: 100%;
+      }*/
+</style>
+</head>
+<body id="home">
+   <nav id="navbar">                                                      
+<a href="#home" title="wereldhuis">
+   <h1><span id="huis">Wereld</span>huis</h1></a>
+    <ul>
+ <li><a href="#home" title="Home">Home</a></li>
+ <li><a href="#about" title="About">About</a></li>
+ <li><a href="#Contact" title="Contact">Contact</a></li>                   
+    </ul>
+  </nav>
+  <!------Show-area----->
+    <div class="showcase-content">
+     <div class="container">
+      <h1>Take a look This is Wereldhuis! <br> <span class="text-primary">Next..... </span></h1>
+     <a href="http://www.wereldhuis.org
+" title="Click Here" class="btn" >Click Here</a>
+                </div>
+            </div>
+                                                                    
+ <!-------About------>
+   <section id="about">
+                <div class="container">
+                <h2 class="about-heading">To know About <span class="text-primary">Wereldhuis</span></h2>
+                <div class="about-content">
+                    <div class="about-text">
+                     
+                    <h3>A little bit <span class="text-primary">About Wereldhuis</span></h3>
+                    <p class="lead">The Worldhouse is a center for and run by undocumented migrants – people who have only limited rights and who are searching for new perspectives.
+
+In the Worldhouse there are all kinds of activities, both educational and recreational. Next to that there is counseling, referrals to medical and judicial instances and a daily warm meal. Since 2008 the Worldhouse has become a place for undocumented people, a place where they can feel at home. The Diaconie of Amsterdam and Luthers Amsterdam are the initiators of the Worldhouse.</p>
+                    <p class="lead">The Worldhouse is open 5 days per week. On these days a warm meal is served. You can take part in this meal after you have had an intake. The meals are cooked by migrants so they always have a special Worldhouse flavour that you will enjoy!. <a href="http://wereldhuis.org/en/">Read more...</a> </p>
+                  </div>
+                     </div>
+                </div>
+            </section>
+            
+            <!-----contact-area---->
+            
+             <div id="Contact">
+     <div class="header-area">
+         <h2>Wereldhuis</h2>
+         <p>Get To konw More<br>Wach here.....</p>
+     </div>
+     <div class="social-area">
+         <a href="https://www.facebook.com/wereldhuis/"><i class="fab fa-facebook-square"  title="facebook"></i></a>
+        <a href="https://www.instagram.com/hetwereldhuis/"><i class="fab fa-instagram" title="instegram"></i></a>
+        <a href="linkedin.com/in/asmerom-micheal/"><i class="fab fa-linkedin" title="LinkedIn"></i></a>
+       <a href="https://www.youtube.com/watch?v=sbf7jmkV854"><i class="fab fa-youtube" title="yutabe"></i></a>
+       
+                        <div class="asmie">
+                           <a href="tel:+31684213768"> <i class="fa fa-phone"  title="+31684213768">
+                               </i></a>
+                         <a href="mailto:miklelovemam@gmail.com">
+                                      <i class="fa fa-envelope" title="miklelovemam@gmail.com">
+                                        </i></a>
+                            <p>Disigned:by Asmerom Micheal</p>
+                 </div>
+                                
+                </div>            
+     
+     
+     <div class="form-area">
+        <i class="fa fa-user" title="Name"></i>
+         <input type="text" placeholder="Enter Username">
+         <i class="fa fa-envelope" title="E-mail"></i>
+         <input type="email" placeholder="Enter Email Address">
+         <i class="fa fa-key" title="Password"></i>
+         <input type="password" placeholder="Enter Password">
+         <i class="fa fa-phone" title="phone-Number"></i>
+         <input type="text" placeholder="Enter Phone Number">
+         <input type="checkbox" title="Check">
+         <p class="terms"></p>
+         <input type="Submit" value="Signin" title="Submit">
+     </div>
+                                                                    
+
+
+</body>
+</html>
